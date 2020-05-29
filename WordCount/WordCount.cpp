@@ -33,6 +33,8 @@ void getword_w()
 }
 int _tmain(int argc, _TCHAR* argv[])
 {
+	printf("请输入特定格式的测试语句\n");
+	printf("示例:_w text.txt\n");
 	scanf("%s %s", c1, c2);
 	if ((fp = fopen(c2, "r")) == NULL)
 	{
